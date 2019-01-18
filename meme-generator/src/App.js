@@ -1,8 +1,16 @@
 import React, { Component } from "react";
+import Header from "./Header";
+import MemeGenerator from "./MemeGenerator";
+import "./style.css";
 
 class App extends Component {
   render() {
-    return <h1>Hello world</h1>;
+    return (
+      <div>
+        <Header />
+        <MemeGenerator />
+      </div>
+    );
   }
 }
 
