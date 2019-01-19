@@ -23,29 +23,24 @@ header {
     #6441a5
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 header > img {
   height: 80%;
   margin-left: 10%;
 }
-
 header > p {
   font-family: VT323, monospace;
   color: whitesmoke;
   font-size: 50px;
   margin-left: 60px;
 }
-
 .meme {
   position: relative;
-  width: 90%;
+  width: 30%;
   margin: auto;
 }
-
 .meme > img {
   width: 100%;
 }
-
 .meme > h2 {
   position: absolute;
   width: 80%;
@@ -63,27 +58,22 @@ header > p {
     -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
     2px 2px 5px #000;
 }
-
 .meme > .bottom {
   bottom: 0;
 }
-
 .meme > .top {
   top: 0;
 }
-
 .meme-form {
   width: 90%;
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
 }
-
 .meme-form > input {
   width: 45%;
   height: 40px;
 }
-
 .meme-form > button {
   border: none;
   font-family: VT323, monospace;
@@ -92,7 +82,6 @@ header > p {
   color: white;
   background: #6441a5;
 }
-
 .meme-form > input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   font-family: VT323, monospace;
